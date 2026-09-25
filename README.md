@@ -1,5 +1,9 @@
 # Cheque Watch
 
+[![Cheque Watch: how much has to be in the bank today, at a glance (click to watch the 22-second demo)](docs/demo.jpg)](docs/demo.mp4)
+
+<sub>▶ Click the image for the 22-second demo video. It uses demo data, not real cheques.</sub>
+
 A small, **read-only** Wear OS companion for [Cheque Tracker](https://github.com/vikashpatel04/Cheque-Tracker).
 It shows how much money has to be in the bank for **today's cheques**, on a watch tile and in a tiny app.
 

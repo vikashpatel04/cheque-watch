@@ -16,7 +16,7 @@ jobs:
         with:
           distribution: temurin
           java-version: 17
-      - uses: gradle/actions/setup-gradle@v4
+      - uses: gradle/actions/setup-gradle@v6
       # No local.properties in CI: the app builds with an empty endpoint/key.
       - run: bash ./gradlew --no-daemon lintDebug testDebugUnitTest assembleDebug
 

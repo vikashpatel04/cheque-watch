@@ -79,13 +79,13 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.9.4")
 
     // Tiles + ProtoLayout
-    implementation("androidx.wear.tiles:tiles:1.5.0")
-    implementation("androidx.wear.protolayout:protolayout:1.3.0")
+    implementation("androidx.wear.tiles:tiles:1.6.2")
+    implementation("androidx.wear.protolayout:protolayout:1.4.2")
     implementation("androidx.concurrent:concurrent-futures-ktx:1.2.0")
 
     // Networking, JSON, cache, background refresh
-    implementation("com.squareup.okhttp3:okhttp:4.12.0")
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0")
+    implementation("com.squareup.okhttp3:okhttp:5.5.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0")
     implementation("androidx.datastore:datastore-preferences:1.1.7")
     implementation("androidx.work:work-runtime-ktx:2.10.5")
 

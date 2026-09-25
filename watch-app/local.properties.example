@@ -1,0 +1,8 @@
+# Copy to local.properties (git-ignored) and fill in, or let setup.sh write it.
+# Android Studio adds sdk.dir itself. On Windows, escape the drive colon:
+# sdk.dir=C\:/Users/you/AppData/Local/Android/Sdk
+
+# Edge Function URL
+watch.endpoint=https://<project-ref>.supabase.co/functions/v1/watch-today
+# Same value as the WATCH_KEY Supabase secret
+watch.key=<long random hex>

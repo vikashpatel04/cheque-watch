@@ -1,0 +1,7 @@
+# Keep shell scripts LF and Windows scripts CRLF, whatever OS they're checked out on.
+* text=auto
+*.sh      text eol=lf
+gradlew   text eol=lf
+*.bat     text eol=crlf
+*.cmd     text eol=crlf
+*.jar     binary

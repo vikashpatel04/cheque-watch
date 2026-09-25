@@ -1,0 +1,30 @@
+name: build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  watch-app:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: watch-app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - uses: gradle/actions/setup-gradle@v4
+      # No local.properties in CI: the app builds with an empty endpoint/key.
+      - run: bash ./gradlew --no-daemon lintDebug testDebugUnitTest assembleDebug
+
+  edge-function:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+      - run: deno check supabase/functions/watch-today/index.ts

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cheques</string>
+    <string name="tile_label">Today\'s cheques</string>
+    <string name="tile_description">Total and count of cheques due today</string>
+</resources>

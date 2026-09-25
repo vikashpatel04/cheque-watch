@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cheque glyph on the 108dp adaptive-icon canvas (safe zone is the middle 66dp). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M30,40h48a4,4 0,0 1,4 4v20a4,4 0,0 1,-4 4h-48a4,4 0,0 1,-4 -4v-20a4,4 0,0 1,4 -4z" />
+    <path
+        android:strokeColor="#FF1E3A5F"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M34,47h10M34,51h10M37,47c5,0 5,8 0,8h-3l8,7" />
+    <path
+        android:strokeColor="#FFF59E0B"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:pathData="M52,50h20M52,58h12" />
+</vector>

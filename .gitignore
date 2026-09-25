@@ -1,0 +1,25 @@
+# Reference copy of the web app (read-only, not part of this project)
+reference/
+
+# Secrets
+local.properties
+.env
+.env.*
+!.env.example
+supabase/.temp/
+supabase/.branches/
+
+# Android / Gradle
+.gradle/
+build/
+.idea/
+.kotlin/
+*.iml
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.jks
+*.keystore

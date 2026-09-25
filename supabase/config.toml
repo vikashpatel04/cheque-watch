@@ -1,0 +1,6 @@
+# Minimal config so `supabase functions deploy` knows this function's settings.
+# The watch authenticates with the x-watch-key header, not a Supabase JWT.
+project_id = "cheque-watch"
+
+[functions.watch-today]
+verify_jwt = false

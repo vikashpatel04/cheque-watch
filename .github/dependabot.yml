@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: gradle
+    directory: /watch-app
+    schedule:
+      interval: monthly
+    groups:
+      android:
+        patterns: ["*"]
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly

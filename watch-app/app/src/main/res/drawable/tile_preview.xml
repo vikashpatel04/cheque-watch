@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tile picker preview: a mock-up of the tile on a round face. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp"
+    android:height="192dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M96,0a96,96 0,1 1,0 192a96,96 0,1 1,0 -192z" />
+    <path
+        android:fillColor="#FFFCD34D"
+        android:pathData="M46,74h100a8,8 0,0 1,0 16h-100a8,8 0,0 1,0 -16z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M68,100h56a5,5 0,0 1,0 10h-56a5,5 0,0 1,0 -10z" />
+    <path
+        android:fillColor="#FF6B7280"
+        android:pathData="M78,122h36a3,3 0,0 1,0 6h-36a3,3 0,0 1,0 -6z" />
+</vector>
